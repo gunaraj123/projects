@@ -36,9 +36,9 @@
 <sub>MQTT • CoAP • 10km Range</sub>
 </td>
 <td align="center" width="20%">
-<img src="https://img.shields.io/badge/PCB-4_Layer_|_HDI-purple?style=flat-square&logo=circuit" alt="PCB">
+<img src="https://img.shields.io/badge/PCB-4_Layer_Design-purple?style=flat-square&logo=circuit" alt="PCB">
 <br><b>Hardware Design</b><br>
-<sub>KiCad • Altium • 3D CAD</sub>
+<sub>Schematic • PCB Layout • 3D Visualization</sub>
 </td>
 <td align="center" width="20%">
 <img src="https://img.shields.io/badge/Testing-6_Months_Field-orange?style=flat-square&logo=check" alt="Testing">
@@ -176,7 +176,7 @@ MCU Configuration:
 
 Communication:
   WiFi: 2.4GHz 802.11 b/g/n
-  LoRa: 915MHz, 10km range
+  LoRa: 433MHz, 10km range
   Protocol: MQTT over TLS 1.3
 
 Power System:
@@ -193,18 +193,12 @@ Power System:
 ```yaml
 Toolchain:
   IDE: ESP-IDF v5.0
-  Debugger: ESP-PROG (JTAG)
   Framework: FreeRTOS v10.4
   Build: CMake + Ninja
 
-Testing Tools:
-  Oscilloscope: Rigol DS1054Z
-  Logic Analyzer: Saleae Logic 8
-  Power Profiler: Nordic PPK2
-  Protocol: MQTT.fx Client
-
-Field Validation:
-  Duration: 6 months continuous
+Testing & Validation:
+  Oscilloscope: For signal analysis
+  Field Testing: 6 months continuous
   Uptime: 99.8% achieved
   Failovers: 3 successful
   Environment: -10°C to +55°C
@@ -347,30 +341,30 @@ void enter_ultra_low_power(void) {
 <tr>
 <td valign="top">
 
-**ESP32 Ecosystem**
+**ESP32 Development**
 - ESP-IDF v5.0
 - FreeRTOS v10.4
-- ESP-PROG Debugger
+- Arduino Framework
 - PlatformIO
 
-**STM32 Ecosystem**
+**STM32 Development**
 - STM32CubeIDE
 - STM32CubeMX
-- ST-LINK V3
-- STM32L4 HAL
+- HAL Libraries
+- Low-Level Drivers
 
 </td>
 <td valign="top">
 
 **PCB Design**
-- KiCad 6.0
-- Altium Designer
-- 4-Layer Design
-- HDI Technology
+- Schematic Capture
+- 4-Layer PCB Design
+- Component Placement
+- 3D PCB Visualization
 
-**3D Modeling**
-- Fusion 360
-- SolidWorks
+**Prototyping**
+- SMD Soldering
+- Component Testing
 - Enclosure Design
 
 </td>
@@ -378,9 +372,9 @@ void enter_ultra_low_power(void) {
 
 **Wireless Protocols**
 - WiFi 2.4GHz
-- LoRa 915MHz
+- LoRa 433MHz
 - NB-IoT Cat-NB2
-- BLE 5.0
+- Bluetooth
 
 **IoT Protocols**
 - MQTT/TLS
@@ -392,16 +386,16 @@ void enter_ultra_low_power(void) {
 <td valign="top">
 
 **Test Equipment**
-- Rigol DS1054Z
-- Saleae Logic 8
-- Nordic PPK2
-- X-NUCLEO-LPM01A
+- Digital Oscilloscope
+- Multimeter
+- Function Generator
+- Bench Power Supply
 
-**Validation**
-- Unit Testing
-- HALT/HASS
+**Validation Methods**
 - Field Testing
-- EMC Testing
+- Temperature Testing
+- Power Consumption Analysis
+- Real-World Deployment
 
 </td>
 </tr>

@@ -161,6 +161,66 @@ timeline
 
 </details>
 
+### 📱 PMS - Pump Management System App
+
+<table>
+<tr>
+<td colspan="2" align="center">
+<h4>💧 Real-Time Monitoring & Control Application</h4>
+<sub><i>Multi-site pump management with live telemetry data</i></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="images/hydromaster-3000/pms-app/dashboard.png">
+<img src="images/hydromaster-3000/pms-app/dashboard.png" alt="PMS Dashboard" style="max-width:100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+<br><b>Dashboard Home Screen</b><br>
+<sub>Multi-site Overview • Real-time Status • Location Mapping</sub>
+</td>
+<td width="50%" align="center">
+<a href="images/hydromaster-3000/pms-app/action-screen.png">
+<img src="images/hydromaster-3000/pms-app/action-screen.png" alt="PMS Action Screen" style="max-width:100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+<br><b>Pump Control Interface</b><br>
+<sub>Remote Control • Three-Phase Monitoring • System Alerts</sub>
+</td>
+</tr>
+</table>
+
+#### 🚀 System Architecture
+
+<table>
+<tr>
+<td width="50%">
+
+**My Contributions:**
+- ✅ **Backend Architecture** - Complete server implementation
+- ✅ **MQTT/TLS Integration** - Secure device communication
+- ✅ **API Development** - RESTful services for app
+- ✅ **Database Design** - Time-series data storage
+- ✅ **Device Protocol** - HydroMaster ↔ Cloud communication
+- ✅ **Real-time Pipeline** - Live telemetry streaming
+
+</td>
+<td width="50%">
+
+**App Features:**
+- 📍 **Multi-Site Management** - Each marker = HydroMaster device
+- 📊 **Live Telemetry** - Voltage, current, power metrics
+- 🎮 **Remote Control** - Start/stop pumps from anywhere
+- 🔔 **Alert System** - Surge events, failures, maintenance
+- 📈 **Analytics** - Historical data and trends
+- 🗺️ **Geographic View** - All installations on map
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub><i>Note: Flutter mobile application UI/UX developed by contracted developer. Backend infrastructure, MQTT communication, API services, and device integration developed by me.</i></sub>
+</div>
+
 ### 🛠️ Technical Implementation
 
 <table>

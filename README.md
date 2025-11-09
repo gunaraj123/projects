@@ -331,7 +331,7 @@ Testing & Validation:
 </table>
 
 **Key Improvements V0.1 → V3:**
-- MCU Migration: STM32F4 → STM32L4 (99% power reduction)
+- MCU Migration: Atmel (testing) → STM32L4 (99% power reduction)
 - Sleep Current: 50μA → < 100nA
 - Battery Life: 3 months → 4-5 years
 - PCB Layers: 2 → 4 layers

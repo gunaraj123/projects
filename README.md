@@ -121,8 +121,7 @@ timeline
 </tr>
 </table>
 
-<details>
-<summary><b>📷 Version 2 - Development & Testing Phase</b></summary>
+#### 📷 Version 2 - Development & Testing Phase
 
 <table>
 <tr>
@@ -147,10 +146,7 @@ timeline
 </tr>
 </table>
 
-</details>
-
-<details>
-<summary><b>📐 Version 1 - Initial Prototype</b></summary>
+#### 📐 Version 1 - Initial Prototype
 
 <div align="center">
 <a href="images/hydromaster-3000/v1/pcb-3d-view.png">
@@ -158,8 +154,6 @@ timeline
 </a>
 <br><sub><b>Single ESP32 Proof of Concept</b></sub>
 </div>
-
-</details>
 
 ### 📱 PMS - Pump Management System App
 
@@ -310,8 +304,7 @@ Testing & Validation:
 </tr>
 </table>
 
-<details>
-<summary><b>📟 Version 0.1 - Initial Development</b></summary>
+#### 📟 Version 0.1 - Initial Development
 
 <table>
 <tr>
@@ -335,8 +328,6 @@ Testing & Validation:
 - Sleep Current: 50μA → < 100nA
 - Battery Life: 3 months → 4-5 years
 - PCB Layers: 2 → 4 layers
-
-</details>
 
 ### ⚡ Power Optimization Details
 
@@ -484,9 +475,6 @@ void enter_ultra_low_power(void) {
 
 ## 📂 Additional Projects
 
-<details>
-<summary><b>🔋 Battery Management System | 📍 GPS Tracker | 🎥 Camera Gimbal | 🌳 Dendrometer</b></summary>
-
 ### 🔋 16-Cell Battery Management System
 - **Configuration**: 16S Lithium (48V nominal)
 - **Balancing**: Active 2A per cell
@@ -511,8 +499,6 @@ void enter_ultra_low_power(void) {
 - **Range**: ±10mm
 - **Battery Life**: 2+ years
 - **Data Rate**: 4-hour intervals
-
-</details>
 
 ---
 
